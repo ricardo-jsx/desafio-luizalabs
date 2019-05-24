@@ -13,8 +13,8 @@ const MapsLoader = () => {
       height={300}
       width={500}
       speed={2}
-      primaryColor="#b6b6b6"
-      secondaryColor="#c0bcbc"
+      primaryColor="#e5e3df"
+      secondaryColor="#f2f1ef"
     />
   ) : (
     <SmallLoader>The map is loading...</SmallLoader>

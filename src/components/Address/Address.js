@@ -16,11 +16,11 @@ const Address = ({ address }) => (
 
 Address.propTypes = {
   address: PropTypes.shape({
-    logradouro: PropTypes.string.isRequired,
-    bairro: PropTypes.string.isRequired,
-    localidade: PropTypes.string.isRequired,
-    uf: PropTypes.string.isRequired,
-    cep: PropTypes.string.isRequired,
+    logradouro: PropTypes.string,
+    bairro: PropTypes.string,
+    localidade: PropTypes.string,
+    uf: PropTypes.string,
+    cep: PropTypes.string,
   }),
 };
 

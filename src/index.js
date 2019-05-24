@@ -1,18 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+import App from './pages/App';
 import * as serviceWorker from './serviceWorker';
-
-const App = () => {
-  const [count, setCount] = React.useState(0);
-
-  return (
-    <div style={{ display: 'flex', flexDirection: 'column' }}>
-      <p>Count is {count}</p>
-      <button onClick={() => setCount((count) => count + 1)}>Increment</button>
-      <button onClick={() => setCount((count) => count - 1)}>Decrement</button>
-    </div>
-  );
-};
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
