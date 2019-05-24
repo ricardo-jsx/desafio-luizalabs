@@ -1,13 +1,13 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 
-import Address from '../Address';
-import Button from '../Button';
-import Close from '../Close';
-import Header from '../Header';
-import Input from '../Input';
-import Maps from '../Maps';
-import Loader, { MapsLoader } from '../Loader';
+import Address from '../../components/Address';
+import Button from '../../components/Button';
+import Close from '../../components/Close';
+import Header from '../../components/Header';
+import Input from '../../components/Input';
+import Maps from '../../components/Maps';
+import Loader, { MapsLoader } from '../../components/Loader';
 import { Container, Body } from './App.styled';
 import useAddress from '../../hooks/useAddress';
 
