@@ -2,7 +2,6 @@ import React from 'react';
 import { render, fireEvent } from 'react-testing-library';
 
 import Close from './Close';
-import { isDebuggerStatement } from '@babel/types';
 
 describe('Close', () => {
   it('should be possible to hide everything inside it', () => {
