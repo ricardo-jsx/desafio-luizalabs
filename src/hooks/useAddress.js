@@ -10,13 +10,15 @@ function useAddress(initialCep = '') {
 
   React.useEffect(() => {
     const fetchData = async () => {
-      setLoading(true);
+      if (currentCep) {
+        setLoading(true);
 
-      const resp = await fetch(`https://viacep.com.br/ws/${currentCep}/json`);
-      const address = await resp.json();
+        const resp = await fetch(`https://viacep.com.br/ws/${currentCep}/json`);
+        const address = await resp.json();
 
-      setAddress(address);
-      setLoading(false);
+        setAddress(address);
+        setLoading(false);
+      }
     };
 
     fetchData();
