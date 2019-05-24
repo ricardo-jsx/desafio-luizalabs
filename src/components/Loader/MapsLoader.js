@@ -8,7 +8,14 @@ const MapsLoader = () => {
   const isWide = useMediaLayout({ minWidth: 500 });
 
   return isWide ? (
-    <ContentLoader height={300} width={500} speed={2} primaryColor="#b6b6b6" secondaryColor="#c0bcbc" />
+    <ContentLoader
+      data-testid="maps-rect"
+      height={300}
+      width={500}
+      speed={2}
+      primaryColor="#b6b6b6"
+      secondaryColor="#c0bcbc"
+    />
   ) : (
     <SmallLoader>The map is loading...</SmallLoader>
   );
