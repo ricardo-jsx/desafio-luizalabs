@@ -12,12 +12,13 @@ const Maps = ({ address }) => {
 
   return (
     <iframe
-      width="500"
-      height="300"
+      width="732"
+      height="400"
       src={`https://maps.google.com/maps?q=${query}&output=embed`}
       frameBorder="0"
       scrolling="no"
       aria-label={`Google Maps ${query}`}
+      className="google-maps"
       data-testid="google-maps"
     />
   );
@@ -25,10 +26,10 @@ const Maps = ({ address }) => {
 
 Maps.propTypes = {
   address: PropTypes.shape({
-    logradouro: PropTypes.string.isRequired,
-    bairro: PropTypes.string.isRequired,
-    localidade: PropTypes.string.isRequired,
-    uf: PropTypes.string.isRequired,
+    logradouro: PropTypes.string,
+    bairro: PropTypes.string,
+    localidade: PropTypes.string,
+    uf: PropTypes.string,
   }),
 };
 

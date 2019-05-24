@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 const Loader = ({ children, loading, renderLoading }) => <div role="alert">{loading ? renderLoading() : children}</div>;
 
 Loader.propTypes = {
+  children: PropTypes.node.isRequired,
   loading: PropTypes.bool,
   renderLoading: PropTypes.func.isRequired,
 };

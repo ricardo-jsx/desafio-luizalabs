@@ -9,4 +9,6 @@ export const AddressContainer = styled.section`
   }
 `;
 
-export const Street = styled.h1``;
+export const Street = styled.h1`
+  font-size: 24px;
+`;
