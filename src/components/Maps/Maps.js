@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Maps = ({ address }) => {
-  const { logradouro, bairro, localidade, uf } = address;
+const Maps = ({ address: { logradouro, bairro, localidade, uf } }) => {
   const [query, setQuery] = React.useState('');
 
   React.useEffect(() => {
     const query = `${logradouro}, ${bairro}, ${localidade}-${uf}`;
     setQuery(query);
-  }, [address]);
+  }, [logradouro, bairro, localidade, uf]);
 
   return (
     <iframe
@@ -17,6 +16,7 @@ const Maps = ({ address }) => {
       src={`https://maps.google.com/maps?q=${query}&output=embed`}
       frameBorder="0"
       scrolling="no"
+      title="Google Maps"
       aria-label={`Google Maps ${query}`}
       className="google-maps"
       data-testid="google-maps"
