@@ -2,7 +2,7 @@
   "name": "desafio-luizalabs",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://ricardo-jsx.github.io",
+  "homepage":"https://ricardo-jsx.github.io/desafio-luizalabs",
   "scripts": {
     "commit": "git-cz",
     "cm": "git-cz",
