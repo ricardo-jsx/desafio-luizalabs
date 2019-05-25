@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/desafio-luizalabs/static/js/main.41c502b4.chunk.js",
-    "main.js.map": "/desafio-luizalabs/static/js/main.41c502b4.chunk.js.map",
-    "runtime~main.js": "/desafio-luizalabs/static/js/runtime~main.2f760778.js",
-    "runtime~main.js.map": "/desafio-luizalabs/static/js/runtime~main.2f760778.js.map",
-    "static/js/2.a1942578.chunk.js": "/desafio-luizalabs/static/js/2.a1942578.chunk.js",
-    "static/js/2.a1942578.chunk.js.map": "/desafio-luizalabs/static/js/2.a1942578.chunk.js.map",
-    "index.html": "/desafio-luizalabs/index.html",
-    "precache-manifest.0138cc8283c00f95c4c50d78acea9c78.js": "/desafio-luizalabs/precache-manifest.0138cc8283c00f95c4c50d78acea9c78.js",
-    "service-worker.js": "/desafio-luizalabs/service-worker.js",
-    "static/media/close.4f5181b6.svg": "/desafio-luizalabs/static/media/close.4f5181b6.svg"
+    "main.js": "/static/js/main.0f44a27e.chunk.js",
+    "main.js.map": "/static/js/main.0f44a27e.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.521c0911.chunk.js": "/static/js/2.521c0911.chunk.js",
+    "static/js/2.521c0911.chunk.js.map": "/static/js/2.521c0911.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3b6df57389de04298d2a39ba516613ed.js": "/precache-manifest.3b6df57389de04298d2a39ba516613ed.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/close.4f5181b6.svg": "/static/media/close.4f5181b6.svg"
   }
 }
